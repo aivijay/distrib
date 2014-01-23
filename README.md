@@ -1,1 +1,1 @@
-A simple scalable distributed data processing framework/tool
+A simple scalable distributed data processing framework / tool
