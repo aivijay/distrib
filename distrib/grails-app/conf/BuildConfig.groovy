@@ -60,7 +60,9 @@ grails.project.dependency.resolution = {
 
 		compile ':cache:1.0.1'
 
-		cmpile ':activemq:0.4.1'
+		compile ':activemq:0.4.1'
 		compile ':jms:1.2'
+		
+		compile ":rabbitmq:1.0.0"
 	}
 }
