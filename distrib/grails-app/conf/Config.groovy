@@ -89,3 +89,16 @@ log4j = {
            'org.hibernate',
            'net.sf.ehcache.hibernate'
 }
+
+rabbitmq {
+	connectionfactory {
+		username = 'guest'
+		password = 'guest'
+		hostname = 'localhost'
+		consumers = 5
+	}
+
+	queues = {
+		msgs()
+	}
+}
