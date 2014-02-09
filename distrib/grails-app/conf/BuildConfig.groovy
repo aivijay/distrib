@@ -64,5 +64,8 @@ grails.project.dependency.resolution = {
 		compile ':jms:1.2'
 		
 		compile ":rabbitmq:1.0.0"
+		
+		compile ":redis:1.4.3"
+		compile ":redis-flexible-cache:0.3.2"
 	}
 }
